@@ -59,8 +59,8 @@ namespace TestClassLibrary
             test2();
             test3();
 
-            /*
-            Can be set or updated outside as in here or instantiated directly in the 
+            /* NB 
+            Can be set or updated outside as in here or instantiated directly
             prices.AddUpdatePrice("A", 50);
             prices.AddUpdatePrice("B", 30);
             prices.AddUpdatePrice("C", 20);
@@ -70,21 +70,7 @@ namespace TestClassLibrary
             prices.AddUpdateSpecial("B", 4, 45);
             */
 
-            ///Setup basket with the prices
-           // basket.prices = prices;
-
-           // basket.Scan("A");
-            //basket.Scan("C");
-            //basket.Scan("A");
-            //basket.Scan("B");
-            //basket.Scan("E");
-            //basket.Scan("A");
-            //basket.Scan("A");
-            //basket.Scan("B");
-            //basket.Scan("D");
-            //basket.Scan("B");
-            //basket.Scan("B");
-
+       
           
 
         }
